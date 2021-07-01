@@ -1,4 +1,5 @@
 <!doctype html>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
 <html lang="en">
     <head>
@@ -9,42 +10,54 @@
     <body>
         <header>
             <img src="" alt="">
-            <p>Menu</p>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="contactme.html">Contact me</a>
-                <a href="funphotos.html">Fun photos</a>
+                <a id="navbubble" href="index.html">Home</a>
+                <a id="navbubble" href="contactme.html">Contact me</a>
+                <a id="navbubble" href="funphotos.html">Fun photos</a>
             </nav>
         </header>
         <section>
             <div id="title">
                 <h1 class="mainheading">Stacey Hill</h1>
-                <img src="images/image1.jpg", id="profileimage">
-            </div>     
-            <div class="columns">
-                <h2>Biography</h2>
-                <p class="columntext">Highly skilled Construction, Project & Site Administration professional with several years’ experience managing travel and accommodation, logistics and mobilisation of high volume personnel across on and offshore operations. Adept at managing staff rosters including R&R allocations, liaising with clients to determine requirements and track staff movements. Accustomed to coordinating visa processes, police and medical clearances, and both sea and land transfers. Excels in all facets of administration with advanced computer literacy and a background developing and implementing systems and procedures to streamline efficiencies, increase visibility and improve accuracy.
-                </p>
-            </div>
-            <div class="columns">
-                <h3>Current studies</h3>
-                <div>
-                    <p><img src="images/logo.png" id="shecodeslogo">
-                        <ul>
-                            <li class="completed">HTM L</li>
-                            <li class="completed">CSS</li>
-                            <li class="not-completed">Python</li>
-                            <li class="not-completed">Django</li>
-                            <li class="not-completed">Stuff</li>
-                        </ul>
+                <img src="images/me.png", id="profileimage">
+            </div>  
+            
+            <div id="columnscontainer">
+                <div class="columns">
+                    <h2>Biography</h2>
+                    <p class="columntext">Highly skilled Construction, Project & Site Administration professional with several years’ experience managing travel and accommodation, logistics and mobilisation of high volume personnel across on and offshore operations. Adept at managing staff rosters including R&R allocations, liaising with clients to determine requirements and track staff movements. Accustomed to coordinating visa processes, police and medical clearances, and both sea and land transfers. Excels in all facets of administration with advanced computer literacy and a background developing and implementing systems and procedures to streamline efficiencies, increase visibility and improve accuracy.
                     </p>
                 </div>
-            </div>
-            <div class="columns">
-                <h4>Work</h4>
-                <p class="columntext">Some more blah blah</p>
-            </div>
+                <div class="columns">
+                    <h3>Current studies</h3>
+                    <div>
+                        <p><img src="images/logo.png" id="shecodeslogo">
+                            <ul>
+                                <li class="completed">HTML</li>
+                                <li class="completed">CSS</li>
+                                <li class="not-completed">Python</li>
+                                <li class="not-completed">Django</li>
+                                <li class="not-completed">React</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="columns">
+                    <h4>Work</h4>
+                    <p class="columntext">Some more blah blah</p>
+                </div>
+            </div>       
         </section>
         <footer>
+            <div id="githubimage">
+                <a href="https://stacey83.github.io/"></a>
+                <img src="images/logo.png">
+            </div>
+            <div id="linkedinimage">
+                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="stacey-hill-8a2a1022" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://au.linkedin.com/in/stacey-hill-8a2a1022?trk=profile-badge"></a></div>
+            </div>
+            <form action="https://stacey83.github.io/" id="github-button">
+                <input type="submit" value="Link to Github">
+            </form>
         </footer>
    </body>

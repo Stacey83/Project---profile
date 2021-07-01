@@ -1,15 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
 
 body {
-    background-color: yellow;
+    background-color: whitesmoke
 }
 nav {
     background-color: transparent;
     border: white;
     border-style: solid;
-    width: 80px;
     text-align: center;
     padding: 10px;
+}
+#navbubble {
+    background-color: lime;
+    border: rgb(137, 241, 248);
+    border-style: inset;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    font-weight: bolder;
 }
 
 #title {
@@ -40,6 +51,10 @@ h1,
 #profileimage {
     display: inline;
     vertical-align: auto;
+}
+#columnscontainer {
+    display: flex; 
+    justify-content: space-around; 
 }
 .columns {
     background-color: white;
@@ -85,6 +100,17 @@ h4 {
     height: 40px;
     width: 90px;
     padding-top: 10px;
+}
+footer {
+    height: 40px;
+    color: mediumorchid;
+}
+#githubimage {
+    max-height: 10px;
+}
+#linkedinimage {
+    height: 10px;
+    width: 10px;
 }
 #formtitle {
     color: blue;
@@ -137,4 +163,13 @@ form {
 
 .form-item button {
     width: 100px;
+}
+#github-button {
+    background-color: purple;
+    color: lime;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
 }
