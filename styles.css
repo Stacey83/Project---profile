@@ -31,6 +31,7 @@ nav {
     flex-direction: row-reverse;
     justify-content: left;
     align-items: center;
+    margin-top: 50px;
 }
 h1 {
     color: lime;
@@ -101,10 +102,6 @@ h4 {
     width: 90px;
     padding-top: 10px;
 }
-footer {
-    height: 40px;
-    color: mediumorchid;
-}
 #githubimage {
     max-height: 10px;
 }
@@ -113,10 +110,11 @@ footer {
     width: 10px;
 }
 #formtitle {
-    color: blue;
-    background-color: red;
-    width: 200px;
+    color: purple;
+    background-color: lime;
     height: 50px;
+    font-family: 'Akaya Kanadaka', sans-serif;
+    margin-top: 50px;
 }
 form {
     margin: 50px auto;
@@ -166,10 +164,21 @@ form {
 }
 #github-button {
     background-color: purple;
-    color: lime;
     border-radius: 50%;
     text-align: center;
     font-weight: bold;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
+}
+#githubtext {
+    background: transparent;
+    border: none;
+    text-align: justify;
+    color: lime;
+    font-weight: bold;
+}
+#button-home {
+    background-color: purple;
+    height: 50px;
+    width: 50px;
 }
