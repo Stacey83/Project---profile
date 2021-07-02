@@ -1,40 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
 
 body {
-    background-color: whitesmoke
+    background-color: #E8C2FF;
 }
 nav {
     background-color: transparent;
-    border: white;
-    border-style: solid;
     text-align: center;
     padding: 10px;
-}
-#navbubble {
-    background-color: lime;
-    border: rgb(137, 241, 248);
-    border-style: inset;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     vertical-align: middle;
-    font-weight: bolder;
 }
-
+.navbutton {
+    border: 0;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background:#FBE0BB;
+    color: rgb(252, 5, 120);
+    font-size: 1rem;
+    line-height: 5;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    cursor: pointer;
+    font-weight: bold;
+}
 #title {
-    background-color:#6a1b9a;
+    background-color: #c8fdb8;
     height: 150px;
-    max-width: 1250px;
+    max-width: inherit;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
 h1 {
-    color: lime;
+    color:rgb(252, 5, 120);
     font-weight: bolder;
     font-size: 100px;
     margin-left: 80px;
@@ -43,7 +47,7 @@ h1 {
 #profileimage {
     margin-left: 20px;
     margin-top: 5px;
-    max-width: 90px;
+    max-width: 110px;
     float: left;
     border: rgb(49, 1, 49);
     border-style: groove;
@@ -58,7 +62,7 @@ h1,
     justify-content: space-around; 
 }
 .columns {
-    background-color: white;
+    background-color: #c5dafd;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -70,6 +74,10 @@ h1,
     margin-left: 20px;
     margin-right: 20px;
     text-align: justify;
+}
+#shecodeslogo {
+    height: 40px;
+    width: 90px;
 }
 .completed {
     color: lime;
@@ -92,93 +100,114 @@ h3 {
     text-align: center;
 }
 h4 {
-    font-size: 20px;
+    font-size: 80px;
     padding: 5px;
     width: 100%;
     text-align: center;
+    margin: auto;
 }
-#shecodeslogo {
-    height: 40px;
-    width: 90px;
-    padding-top: 10px;
+footer {
+    background-color: transparent;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
 }
-#githubimage {
-    max-height: 10px;
+.footertext {
+    background: transparent;
+    border: none;
+    text-align: justify;
+    color: rgb(252, 5, 120);
+    font-weight: bold;
 }
-#linkedinimage {
-    height: 10px;
-    width: 10px;
+.indexfooterbutton {
+    border: 0;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: #FBE0BB;
+    font-size: 1rem;
+    line-height: 5;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    cursor: pointer;
 }
 #formtitle {
     color: purple;
     background-color: lime;
-    height: 50px;
     font-family: 'Akaya Kanadaka', sans-serif;
+    height: 100px;
+    width: 900px;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-form {
-    margin: 50px auto;
-    width: 90%;
+#formcontainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 40%;
+    padding: 10px;
+    background-color: seagreen;
 }
-
 .form-item {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px;
+    font-weight: bold;
 }
-
-.form-item label {
+.form-itemlabel {
     flex-basis: 150px;
-    font-size: 22px;
+    font-size: 30px;
 }
-
 .form-item input,
 .form-item textarea {
     flex-basis: 50%;
-    border: 2px solid #FDDC5C;
+    border: 2px solid #875cfd;
 }
-
 .form-item input:hover,
 .form-item textarea:hover {
-    border: 2px solid #FA4224;
+    border: 2px solid #080513;
 }
-
 .form-item input,
 .form-item textarea,
 .form-item button {
     border: 2px solid #FDDC5C;
-    background-color: #FFF;
+    background-color: rgb(214, 198, 213);
     padding: 5px;
     font-size: 18px;
 }
-
-.form-item button:hover {
+.form-itembutton:hover {
     border: 2px solid #FA4224;
     background-color: #FA4224;
     color: #FFF;
 }
-
-.form-item button {
+.form-itembutton {
     width: 100px;
+    color: slateblue;
 }
-#github-button {
-    background-color: purple;
-    border-radius: 50%;
-    text-align: center;
-    font-weight: bold;
-    width: 50px;
-    height: 50px;
+#formbutton {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
 }
-#githubtext {
-    background: transparent;
-    border: none;
-    text-align: justify;
-    color: lime;
-    font-weight: bold;
+.funimagecontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
 }
-#button-home {
-    background-color: purple;
-    height: 50px;
-    width: 50px;
+.funimage {
+    height: 350px;
+    width: 350px;
+    border: grey;
+    border-style: ridge;
+    border-width: 5px;
+    margin-top: 30px;
 }
