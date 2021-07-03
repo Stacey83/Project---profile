@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
 
 body {
-    background-color: #E8C2FF;
+    background-color: #bea198;
 }
 nav {
     background-color: transparent;
@@ -16,8 +16,8 @@ nav {
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    background:#FBE0BB;
-    color: rgb(252, 5, 120);
+    background:#ff9e80;
+    color: white;
     font-size: 1rem;
     line-height: 5;
     white-space: nowrap;
@@ -28,7 +28,7 @@ nav {
     font-weight: bold;
 }
 #title {
-    background-color: #c8fdb8;
+    background-color: #5d4037;
     height: 150px;
     max-width: inherit;
     display: flex;
@@ -38,7 +38,7 @@ nav {
     margin-top: 50px;
 }
 h1 {
-    color:rgb(252, 5, 120);
+    color: white;
     font-weight: bolder;
     font-size: 100px;
     margin-left: 80px;
@@ -49,7 +49,7 @@ h1 {
     margin-top: 5px;
     max-width: 110px;
     float: left;
-    border: rgb(49, 1, 49);
+    border: #321911;
     border-style: groove;
 }
 h1,
@@ -62,7 +62,7 @@ h1,
     justify-content: space-around; 
 }
 .columns {
-    background-color: #c5dafd;
+    background-color: #ffe9da;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -80,11 +80,11 @@ h1,
     width: 90px;
 }
 .completed {
-    color: lime;
+    color: rgb(9, 116, 9);
     font-weight: bolder;
 }
 .not-completed {
-    color: blue;
+    color: rgb(160, 12, 12);
     font-weight: bolder;
 }
 h2 {
@@ -118,7 +118,7 @@ footer {
     background: transparent;
     border: none;
     text-align: justify;
-    color: rgb(252, 5, 120);
+    color: white;
     font-weight: bold;
 }
 .indexfooterbutton {
@@ -126,7 +126,7 @@ footer {
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    background: #FBE0BB;
+    background: #ff9e80;
     font-size: 1rem;
     line-height: 5;
     white-space: nowrap;
@@ -136,8 +136,8 @@ footer {
     cursor: pointer;
 }
 #formtitle {
-    color: purple;
-    background-color: lime;
+    color: #74554b;
+    background-color: white;
     font-family: 'Akaya Kanadaka', sans-serif;
     height: 100px;
     width: 900px;
@@ -152,7 +152,7 @@ footer {
     margin-top: 10px;
     width: 40%;
     padding: 10px;
-    background-color: seagreen;
+    background-color:#ffe9da;
 }
 .form-item {
     display: flex;
@@ -168,7 +168,7 @@ footer {
 .form-item input,
 .form-item textarea {
     flex-basis: 50%;
-    border: 2px solid #875cfd;
+    border: 2px solid #321911;
 }
 .form-item input:hover,
 .form-item textarea:hover {
@@ -177,8 +177,8 @@ footer {
 .form-item input,
 .form-item textarea,
 .form-item button {
-    border: 2px solid #FDDC5C;
-    background-color: rgb(214, 198, 213);
+    border: 2px solid #c96f53;
+    background-color: white;
     padding: 5px;
     font-size: 18px;
 }
@@ -189,7 +189,7 @@ footer {
 }
 .form-itembutton {
     width: 100px;
-    color: slateblue;
+    color: black;
 }
 #formbutton {
     display: flex;
