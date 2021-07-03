@@ -65,7 +65,7 @@ h1,
 }
 #columnscontainer {
     display: flex; 
-    justify-content: space-around; 
+    justify-content: space-around;
 }
 .columns {
     background-color: #ffe9da;
@@ -79,7 +79,13 @@ h1,
 .columntext {
     margin-left: 20px;
     margin-right: 20px;
-    text-align: justify;
+    font-size: 16px;
+}
+.thirdcolumntext {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 16px;
 }
 #shecodeslogo {
     height: 40px;
@@ -106,7 +112,7 @@ h3 {
     text-align: center;
 }
 h4 {
-    font-size: 80px;
+    font-size: 20px;
     padding: 5px;
     width: 100%;
     text-align: center;
@@ -146,7 +152,7 @@ footer {
     background-color: white;
     font-family: 'Akaya Kanadaka', sans-serif;
     height: 100px;
-    width: 900px;
+    width: 90%;
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -218,8 +224,33 @@ footer {
     margin-top: 30px;
 }
 @media (max-width: 500px) {
-    /* some styles */
-    /*#columnscontainer {
-        display: flex; 
-        justify-content: space-around; */    
+    #title {
+        width: 95%;
+        margin-right: 2%;
+        margin-left: 2%;
+        }
+    h1 {
+        font-size: 50px;
+        margin-left: 20px;
+    }
+    #columnscontainer {
+        display: inline-flex; 
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+    }
+    .columns {
+        width: 90%;
+    }
+    #formtitle {
+        margin-top: 20px;
+    }
+    #formcontainer {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 90%;
+    }
+    .form-itemlabel {
+        font-size: 20px;
+    }
 }
