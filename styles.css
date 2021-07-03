@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
 
+html {
+    max-width: 100%;
+    max-height: 100%;
+}
 body {
     background-color: #bea198;
+    max-width: 100%;
+    max-height: 100%;
 }
 nav {
     background-color: transparent;
@@ -210,4 +216,10 @@ footer {
     border-style: ridge;
     border-width: 5px;
     margin-top: 30px;
+}
+@media (max-width: 500px) {
+    /* some styles */
+    /*#columnscontainer {
+        display: flex; 
+        justify-content: space-around; */    
 }
