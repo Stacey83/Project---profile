@@ -263,43 +263,59 @@ footer {
   margin-top: 30px;
 }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 768px) {
   #title {
     width: 95%;
     margin-right: 2%;
     margin-left: 2%;
   }
   h1 {
+    font-size: 4em;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 414px) {
+  #title {
+    width: 95%;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+  h1 {
     font-size: 50px;
     margin-left: 20px;
   }
+
   .navbutton {
-    text-align: justify;
+    text-align: center;
+    text-size-adjust: auto;
   }
+
   #columnscontainer {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+    flex-direction: column;
+    align-items: center;
   }
+
   .columns {
-    background-color: purple;
     padding: 5px;
     width: 90%;
-    height: 150px;
+    height: auto;
     margin-top: 10px;
   }
+
   #formtitle {
     margin-top: 20px;
     font-size: 50px;
   }
+
   #formcontainer {
     margin-left: 2%;
     margin-right: 2%;
     width: 90%;
   }
+
   .form-itemlabel {
     font-size: 20px;
   }
