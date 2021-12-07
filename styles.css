@@ -1,258 +1,306 @@
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
 
 html {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
+
 body {
-    background-color: #bea198;
-    max-width: 100%;
-    max-height: 100%;
+  background-color: #bea198;
+  max-width: 100%;
+  max-height: 100%;
 }
+
 nav {
-    background-color: transparent;
-    text-align: center;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    vertical-align: middle;
+  background-color: transparent;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  vertical-align: middle;
 }
+
 .navbutton {
-    border: 0;
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    background:#ff9e80;
-    color: white;
-    font-size: 1rem;
-    line-height: 5;
-    white-space: nowrap;
-    text-decoration: none;
-    padding: 0.25rem 0.5rem;
-    margin: 0.25rem;
-    cursor: pointer;
-    font-weight: bold;
+  border: 0;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: #ff9e80;
+  box-shadow: 0 2px rgb(88, 50, 50);
+  color: white;
+  font-size: 1rem;
+  line-height: 5;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem;
+  cursor: pointer;
+  font-weight: bold;
 }
+
+.navbutton:hover {
+  background-color: #ffe9da;
+  color: #ff9e80;
+  font-weight: bolder;
+}
+
 #title {
-    background-color: #5d4037;
-    height: 150px;
-    max-width: inherit;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+  background-color: #5d4037;
+  height: 150px;
+  max-width: inherit;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
+
 h1 {
-    color: white;
-    font-weight: bolder;
-    font-size: 100px;
-    margin-left: 80px;
-    font-family: 'Akaya Kanadaka', sans-serif;
+  color: white;
+  font-weight: bolder;
+  font-size: 100px;
+  margin-left: 80px;
+  font-family: "Akaya Kanadaka", sans-serif;
 }
+
 #profileimage {
-    margin-left: 20px;
-    margin-top: 5px;
-    max-width: 110px;
-    float: left;
-    border: #321911;
-    border-style: groove;
+  margin-left: 20px;
+  margin-top: 5px;
+  max-width: 110px;
+  float: left;
+  border: #321911;
+  border-style: groove;
 }
+
 h1,
 #profileimage {
-    display: inline;
-    vertical-align: auto;
+  display: inline;
+  vertical-align: auto;
 }
+
 #columnscontainer {
-    display: flex; 
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .columns {
-    background-color: #ffe9da;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 30%;
+  background-color: #ffe9da;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 30%;
 }
+
 .columntext {
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
 }
+
 .thirdcolumntext {
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: left;
-    font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 16px;
 }
+
 #shecodeslogo {
-    height: 40px;
-    width: 90px;
+  height: 40px;
+  width: 90px;
 }
+
 .completed {
-    color: rgb(9, 116, 9);
-    font-weight: bolder;
+  color: rgb(9, 116, 9);
+  font-weight: bolder;
 }
+
 .not-completed {
-    color: rgb(160, 12, 12);
-    font-weight: bolder;
+  color: rgb(160, 12, 12);
+  font-weight: bolder;
 }
+
 h2 {
-    font-size: 20px;
-    padding: 5px;
-    width: 100%;
-    text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
 }
+
 h3 {
-    font-size: 20px;
-    padding: 5px;
-    width: 100%;
-    text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
 }
+
 h4 {
-    font-size: 20px;
-    padding: 5px;
-    width: 100%;
-    text-align: center;
-    margin: auto;
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
 }
+
 footer {
-    background-color: transparent;
-    text-align: center;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    vertical-align: middle;
+  background-color: transparent;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  vertical-align: middle;
 }
 .footertext {
-    background: transparent;
-    border: none;
-    text-align: justify;
-    color: white;
-    font-weight: bold;
+  background: transparent;
+  border: none;
+  text-align: justify;
+  color: white;
+  font-weight: bold;
 }
+
 .indexfooterbutton {
-    border: 0;
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    background: #ff9e80;
-    font-size: 1rem;
-    line-height: 5;
-    white-space: nowrap;
-    text-decoration: none;
-    padding: 0.25rem 0.5rem;
-    margin: 0.25rem;
-    cursor: pointer;
+  border: 0;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: #ff9e80;
+  font-size: 1rem;
+  line-height: 5;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem;
+  cursor: pointer;
+  box-shadow: 0 2px rgb(88, 50, 50);
 }
+
 #formtitle {
-    color: #74554b;
-    background-color: white;
-    font-family: 'Akaya Kanadaka', sans-serif;
-    height: 100px;
-    width: 90%;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 80px;
+  color: #74554b;
+  background-color: white;
+  font-family: "Akaya Kanadaka", sans-serif;
+  height: 100px;
+  width: 90%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
 }
+
 #formcontainer {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    width: 40%;
-    padding: 10px;
-    background-color:#ffe9da;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 40%;
+  padding: 10px;
+  background-color: #ffe9da;
 }
+
 .form-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-weight: bold;
 }
+
 .form-itemlabel {
-    flex-basis: 150px;
-    font-size: 30px;
+  flex-basis: 150px;
+  font-size: 30px;
 }
+
 .form-item input,
 .form-item textarea {
-    flex-basis: 50%;
-    border: 2px solid #321911;
+  flex-basis: 50%;
+  border: 2px solid #321911;
 }
+
 .form-item input:hover,
 .form-item textarea:hover {
-    border: 2px solid #080513;
+  border: 2px solid #080513;
 }
+
 .form-item input,
 .form-item textarea,
 .form-item button {
-    border: 2px solid #c96f53;
-    background-color: white;
-    padding: 5px;
-    font-size: 18px;
+  border: 2px solid #c96f53;
+  background-color: white;
+  padding: 5px;
+  font-size: 18px;
 }
+
 .form-itembutton:hover {
-    border: 2px solid #FA4224;
-    background-color: #FA4224;
-    color: #FFF;
+  border: 2px solid #fa4224;
+  background-color: #fa4224;
+  color: #fff;
 }
+
 .form-itembutton {
-    width: 100px;
-    color: black;
+  width: 100px;
+  color: black;
 }
+
 #formbutton {
-    display: flex;
-    justify-content: center;
-    margin: 5px;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
 }
+
 .funimagecontainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px;
 }
+
 .funimage {
-    height: 350px;
-    width: 350px;
-    border: grey;
-    border-style: ridge;
-    border-width: 5px;
-    margin-top: 30px;
+  height: 350px;
+  width: 350px;
+  border: grey;
+  border-style: ridge;
+  border-width: 5px;
+  margin-top: 30px;
 }
-@media (max-width: 500px) {
-    #title {
-        width: 95%;
-        margin-right: 2%;
-        margin-left: 2%;
-        }
-    h1 {
-        font-size: 50px;
-        margin-left: 20px;
-    }
-    #columnscontainer {
-        display: inline-flex; 
-        flex-direction: column;
-        justify-content: center; 
-        align-items: center;
-    }
-    .columns {
-        width: 90%;
-    }
-    #formtitle {
-        margin-top: 20px;
-        font-size: 50px;
-    }
-    #formcontainer {
-        margin-left: 2%;
-        margin-right: 2%;
-        width: 90%;
-    }
-    .form-itemlabel {
-        font-size: 20px;
-    }
+
+@media screen and (max-width: 700px) {
+  #title {
+    width: 95%;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  h1 {
+    font-size: 50px;
+    margin-left: 20px;
+  }
+  .navbutton {
+    text-align: justify;
+  }
+  #columnscontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .columns {
+    background-color: purple;
+    padding: 5px;
+    width: 90%;
+    height: 150px;
+    margin-top: 10px;
+  }
+  #formtitle {
+    margin-top: 20px;
+    font-size: 50px;
+  }
+  #formcontainer {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 90%;
+  }
+  .form-itemlabel {
+    font-size: 20px;
+  }
 }
