@@ -184,17 +184,17 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 80px;
+  font-size: 80%;
 }
 
 #formcontainer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  width: 40%;
+  width: 60%;
   padding: 10px;
   background-color: #ffe9da;
-  box-shadow: ;
+  box-shadow: grey;
 }
 
 .form-item {
@@ -206,13 +206,14 @@ footer {
 }
 
 .form-itemlabel {
-  flex-basis: 150px;
-  font-size: 30px;
+  flex-basis: 80%;
+  font-size: 120%;
 }
 
 .form-item input,
 .form-item textarea {
   flex-basis: 50%;
+  width: 70%;
   border: 2px solid #321911;
 }
 
@@ -316,9 +317,5 @@ footer {
     margin-left: 2%;
     margin-right: 2%;
     width: 90%;
-  }
-
-  .form-itemlabel {
-    font-size: 20px;
   }
 }
