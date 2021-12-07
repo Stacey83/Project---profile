@@ -290,7 +290,7 @@ footer {
 
   .navbutton {
     text-align: center;
-    text-size-adjust: auto;
+    font-size: 80%;
   }
 
   #columnscontainer {
