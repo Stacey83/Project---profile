@@ -4,11 +4,13 @@ html {
   max-width: 100%;
   max-height: 100%;
 }
+
 body {
   background-color: #bea198;
   max-width: 100%;
   max-height: 100%;
 }
+
 nav {
   background-color: transparent;
   text-align: center;
@@ -17,12 +19,14 @@ nav {
   justify-content: space-evenly;
   vertical-align: middle;
 }
+
 .navbutton {
   border: 0;
   height: 80px;
   width: 80px;
   border-radius: 50%;
   background: #ff9e80;
+  box-shadow: 0 2px rgb(88, 50, 50);
   color: white;
   font-size: 1rem;
   line-height: 5;
@@ -33,11 +37,13 @@ nav {
   cursor: pointer;
   font-weight: bold;
 }
+
 .navbutton:hover {
-  background-color: #fcb59f;
-  border: 4px solid #ff9e80;
-  color: white;
+  background-color: #ffe9da;
+  color: #ff9e80;
+  font-weight: bolder;
 }
+
 #title {
   background-color: #5d4037;
   height: 150px;
@@ -48,6 +54,7 @@ nav {
   align-items: center;
   margin-top: 50px;
 }
+
 h1 {
   color: white;
   font-weight: bolder;
@@ -55,6 +62,7 @@ h1 {
   margin-left: 80px;
   font-family: "Akaya Kanadaka", sans-serif;
 }
+
 #profileimage {
   margin-left: 20px;
   margin-top: 5px;
@@ -63,11 +71,13 @@ h1 {
   border: #321911;
   border-style: groove;
 }
+
 h1,
 #profileimage {
   display: inline;
   vertical-align: auto;
 }
+
 #columnscontainer {
   display: flex;
   justify-content: space-around;
@@ -81,41 +91,49 @@ h1,
   margin-bottom: 20px;
   width: 30%;
 }
+
 .columntext {
   margin-left: 20px;
   margin-right: 20px;
   font-size: 16px;
 }
+
 .thirdcolumntext {
   margin-left: 20px;
   margin-right: 20px;
   text-align: center;
   font-size: 16px;
 }
+
 #shecodeslogo {
   height: 40px;
   width: 90px;
 }
+
 .completed {
   color: rgb(9, 116, 9);
   font-weight: bolder;
 }
+
 .not-completed {
   color: rgb(160, 12, 12);
   font-weight: bolder;
 }
+
 h2 {
   font-size: 20px;
   padding: 5px;
   width: 100%;
   text-align: center;
 }
+
 h3 {
   font-size: 20px;
   padding: 5px;
   width: 100%;
   text-align: center;
 }
+
 h4 {
   font-size: 20px;
   padding: 5px;
@@ -123,6 +141,7 @@ h4 {
   text-align: center;
   margin: auto;
 }
+
 footer {
   background-color: transparent;
   text-align: center;
@@ -138,6 +157,7 @@ footer {
   color: white;
   font-weight: bold;
 }
+
 .indexfooterbutton {
   border: 0;
   height: 80px;
@@ -151,7 +171,9 @@ footer {
   padding: 0.25rem 0.5rem;
   margin: 0.25rem;
   cursor: pointer;
+  box-shadow: 0 2px rgb(88, 50, 50);
 }
+
 #formtitle {
   color: #74554b;
   background-color: white;
@@ -164,6 +186,7 @@ footer {
   align-items: center;
   font-size: 80px;
 }
+
 #formcontainer {
   margin-left: auto;
   margin-right: auto;
@@ -172,6 +195,7 @@ footer {
   padding: 10px;
   background-color: #ffe9da;
 }
+
 .form-item {
   display: flex;
   justify-content: center;
@@ -179,19 +203,23 @@ footer {
   padding: 5px;
   font-weight: bold;
 }
+
 .form-itemlabel {
   flex-basis: 150px;
   font-size: 30px;
 }
+
 .form-item input,
 .form-item textarea {
   flex-basis: 50%;
   border: 2px solid #321911;
 }
+
 .form-item input:hover,
 .form-item textarea:hover {
   border: 2px solid #080513;
 }
+
 .form-item input,
 .form-item textarea,
 .form-item button {
@@ -200,20 +228,24 @@ footer {
   padding: 5px;
   font-size: 18px;
 }
+
 .form-itembutton:hover {
   border: 2px solid #fa4224;
   background-color: #fa4224;
   color: #fff;
 }
+
 .form-itembutton {
   width: 100px;
   color: black;
 }
+
 #formbutton {
   display: flex;
   justify-content: center;
   margin: 5px;
 }
+
 .funimagecontainer {
   display: flex;
   flex-direction: row;
@@ -221,6 +253,7 @@ footer {
   justify-content: space-evenly;
   margin: 20px;
 }
+
 .funimage {
   height: 350px;
   width: 350px;
@@ -229,6 +262,7 @@ footer {
   border-width: 5px;
   margin-top: 30px;
 }
+
 @media screen and (max-width: 700px) {
   #title {
     width: 95%;
@@ -243,14 +277,19 @@ footer {
     text-align: justify;
   }
   #columnscontainer {
-    /* display: inline-flex;
-    flex-direction: column; */
-    display: block;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
   }
   .columns {
+    background-color: purple;
+    padding: 5px;
     width: 90%;
+    height: 150px;
+    margin-top: 10px;
   }
   #formtitle {
     margin-top: 20px;
